@@ -12,21 +12,27 @@
     <None Remove="Scripts\Script0004_Create payee table.sql" />
     <None Remove="Scripts\Script0005_Create transaction table.sql" />
     <None Remove="Scripts\Script0006_Create transaction assignment.sql" />
+    <None Remove="Scripts\Script0007_Remove account balance.sql" />
   </ItemGroup>
 
   <ItemGroup>
     <EmbeddedResource Include="Scripts\Script0004_Create payee table.sql" />
-    <EmbeddedResource Include="Scripts\Script0006_Create transaction assignment.sql" />
     <EmbeddedResource Include="Scripts\Script0005_Create transaction table.sql" />
     <EmbeddedResource Include="Scripts\Script0003_Create envelope tables.sql" />
     <EmbeddedResource Include="Scripts\Script0002_Create account table.sql" />
     <EmbeddedResource Include="Scripts\Script0001_Create budget table.sql" />
+    <EmbeddedResource Include="Scripts\Script0006_Create transaction assignment.sql" />
+    <EmbeddedResource Include="Scripts\Script0007_Remove account balance.sql" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="dbup" Version="4.0.0-beta0004" />
     <PackageReference Include="dbup-postgresql" Version="4.0.0-beta0004" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.FileExtensions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="2.2.0" />
     <PackageReference Include="Npgsql" Version="3.2.7" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.EnvironmentVariables" Version="2.2.0" />
   </ItemGroup>
 
 </Project>

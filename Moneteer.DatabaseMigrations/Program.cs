@@ -1,5 +1,7 @@
 ﻿using DbUp;
+using Microsoft.Extensions.Configuration;
 using System;
+using System.IO;
 using System.Reflection;
 
 namespace Moneteer.DatabaseMigrations
@@ -8,11 +10,17 @@ namespace Moneteer.DatabaseMigrations
     {
         static int Main(string[] args)
         {
-            var connectionString = "Server=127.0.0.1;User Id=postgres;Password=admin;Database=moneteer-app;";
+            var environment = Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT");
+
+            var configuration = new ConfigurationBuilder()
+                .SetBasePath(Directory.GetCurrentDirectory())
+                .AddJsonFile("appsettings.json", false, true)
+                .AddEnvironmentVariables()
+                .Build();
 
             var upgrader =
                 DeployChanges.To
-                    .PostgresqlDatabase(connectionString)
+                    .PostgresqlDatabase(configuration.GetConnectionString("App"))
                     .WithTransaction()
                     .WithScriptsEmbeddedInAssembly(Assembly.GetExecutingAssembly())
                     .LogToConsole()
