@@ -14,6 +14,7 @@
     <None Remove="Scripts\Script0006_Create transaction assignment.sql" />
     <None Remove="Scripts\Script0007_Remove account balance.sql" />
     <None Remove="Scripts\Script0008_Make text fields case insensitive.sql" />
+    <None Remove="Scripts\Script0009_Change envelope balance to assigned.sql" />
   </ItemGroup>
 
   <ItemGroup>
@@ -25,6 +26,7 @@
     <EmbeddedResource Include="Scripts\Script0006_Create transaction assignment.sql" />
     <EmbeddedResource Include="Scripts\Script0007_Remove account balance.sql" />
     <EmbeddedResource Include="Scripts\Script0008_Make text fields case insensitive.sql" />
+    <EmbeddedResource Include="Scripts\Script0009_Change envelope balance to assigned.sql" />
   </ItemGroup>
 
   <ItemGroup>

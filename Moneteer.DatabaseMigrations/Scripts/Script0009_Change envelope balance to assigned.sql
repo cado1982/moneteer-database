@@ -1,0 +1,1 @@
+﻿ALTER TABLE envelope RENAME COLUMN balance TO assigned
