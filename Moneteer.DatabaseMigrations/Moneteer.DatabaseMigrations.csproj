@@ -13,6 +13,7 @@
     <None Remove="Scripts\Script0005_Create transaction table.sql" />
     <None Remove="Scripts\Script0006_Create transaction assignment.sql" />
     <None Remove="Scripts\Script0007_Remove account balance.sql" />
+    <None Remove="Scripts\Script0008_Make text fields case insensitive.sql" />
   </ItemGroup>
 
   <ItemGroup>
@@ -23,6 +24,7 @@
     <EmbeddedResource Include="Scripts\Script0001_Create budget table.sql" />
     <EmbeddedResource Include="Scripts\Script0006_Create transaction assignment.sql" />
     <EmbeddedResource Include="Scripts\Script0007_Remove account balance.sql" />
+    <EmbeddedResource Include="Scripts\Script0008_Make text fields case insensitive.sql" />
   </ItemGroup>
 
   <ItemGroup>
