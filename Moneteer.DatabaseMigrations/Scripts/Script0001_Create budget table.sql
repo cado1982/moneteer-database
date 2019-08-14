@@ -1,4 +1,6 @@
-﻿CREATE TABLE budget (
+﻿CREATE SCHEMA IF NOT EXISTS app;
+
+CREATE TABLE app.budget (
 	"id"									uuid NOT NULL PRIMARY KEY,
 	"name"									varchar(256) NOT NULL,
 	"user_id"								uuid NOT NULL,
@@ -12,4 +14,4 @@
 	UNIQUE ("name", "user_id")
 );
 
-CREATE INDEX ix_budget__user_id ON budget (user_id);
+CREATE INDEX ix_budget__user_id ON app.budget (user_id);

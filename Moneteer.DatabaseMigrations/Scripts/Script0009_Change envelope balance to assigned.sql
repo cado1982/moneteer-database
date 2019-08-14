@@ -1,1 +1,1 @@
-﻿ALTER TABLE envelope RENAME COLUMN balance TO assigned
+﻿ALTER TABLE app.envelope RENAME COLUMN balance TO assigned

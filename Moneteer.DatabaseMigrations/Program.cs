@@ -20,7 +20,7 @@ namespace Moneteer.DatabaseMigrations
 
             var upgrader =
                 DeployChanges.To
-                    .PostgresqlDatabase(configuration.GetConnectionString("App"))
+                    .PostgresqlDatabase(configuration.GetConnectionString("Moneteer"))
                     .WithTransaction()
                     .WithScriptsEmbeddedInAssembly(Assembly.GetExecutingAssembly())
                     .LogToConsole()

@@ -1,2 +1,2 @@
-﻿ALTER TABLE "account" 
+﻿ALTER TABLE app.account 
 DROP COLUMN "balance";

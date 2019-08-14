@@ -15,6 +15,11 @@
     <None Remove="Scripts\Script0007_Remove account balance.sql" />
     <None Remove="Scripts\Script0008_Make text fields case insensitive.sql" />
     <None Remove="Scripts\Script0009_Change envelope balance to assigned.sql" />
+    <None Remove="Scripts\Script0010_Add data protection.sql" />
+    <None Remove="Scripts\Script0011_Add identity.sql" />
+    <None Remove="Scripts\Script0012_Add identity claims.sql" />
+    <None Remove="Scripts\Script0013_Add remaining identity.sql" />
+    <None Remove="Scripts\Script0014_Add identity server.sql" />
   </ItemGroup>
 
   <ItemGroup>
@@ -27,6 +32,11 @@
     <EmbeddedResource Include="Scripts\Script0007_Remove account balance.sql" />
     <EmbeddedResource Include="Scripts\Script0008_Make text fields case insensitive.sql" />
     <EmbeddedResource Include="Scripts\Script0009_Change envelope balance to assigned.sql" />
+    <EmbeddedResource Include="Scripts\Script0010_Add data protection.sql" />
+    <EmbeddedResource Include="Scripts\Script0011_Add identity.sql" />
+    <EmbeddedResource Include="Scripts\Script0012_Add identity claims.sql" />
+    <EmbeddedResource Include="Scripts\Script0013_Add remaining identity.sql" />
+    <EmbeddedResource Include="Scripts\Script0014_Add identity server.sql" />
   </ItemGroup>
 
   <ItemGroup>
