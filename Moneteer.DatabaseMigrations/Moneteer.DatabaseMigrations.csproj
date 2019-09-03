@@ -21,6 +21,7 @@
     <None Remove="Scripts\Script0013_Add remaining identity.sql" />
     <None Remove="Scripts\Script0014_Add identity server.sql" />
     <None Remove="Scripts\Script0015_Remove available from budget table.sql" />
+    <None Remove="Scripts\Script0016_Add subscription system.sql" />
   </ItemGroup>
 
   <ItemGroup>
@@ -39,6 +40,7 @@
     <EmbeddedResource Include="Scripts\Script0013_Add remaining identity.sql" />
     <EmbeddedResource Include="Scripts\Script0014_Add identity server.sql" />
     <EmbeddedResource Include="Scripts\Script0015_Remove available from budget table.sql" />
+    <EmbeddedResource Include="Scripts\Script0016_Add subscription system.sql" />
   </ItemGroup>
 
   <ItemGroup>
