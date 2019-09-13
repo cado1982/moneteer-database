@@ -24,6 +24,7 @@
     <None Remove="Scripts\Script0016_Add subscription system.sql" />
     <None Remove="Scripts\Script0017_Add subscription status column.sql" />
     <None Remove="Scripts\Script0018_Add subscription id column.sql" />
+    <None Remove="Scripts\Script0019_Remove unnecessary subscription columns.sql" />
   </ItemGroup>
 
   <ItemGroup>
@@ -45,6 +46,7 @@
     <EmbeddedResource Include="Scripts\Script0016_Add subscription system.sql" />
     <EmbeddedResource Include="Scripts\Script0017_Add subscription status column.sql" />
     <EmbeddedResource Include="Scripts\Script0018_Add subscription id column.sql" />
+    <EmbeddedResource Include="Scripts\Script0019_Remove unnecessary subscription columns.sql" />
   </ItemGroup>
 
   <ItemGroup>
