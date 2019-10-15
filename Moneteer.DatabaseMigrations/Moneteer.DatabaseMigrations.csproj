@@ -25,6 +25,8 @@
     <None Remove="Scripts\Script0017_Add subscription status column.sql" />
     <None Remove="Scripts\Script0018_Add subscription id column.sql" />
     <None Remove="Scripts\Script0019_Remove unnecessary subscription columns.sql" />
+    <None Remove="Scripts\Script0020_Remove inflow and outflow.sql" />
+    <None Remove="Scripts\Script0021_Remove is deleted columns.sql" />
   </ItemGroup>
 
   <ItemGroup>
@@ -47,6 +49,8 @@
     <EmbeddedResource Include="Scripts\Script0017_Add subscription status column.sql" />
     <EmbeddedResource Include="Scripts\Script0018_Add subscription id column.sql" />
     <EmbeddedResource Include="Scripts\Script0019_Remove unnecessary subscription columns.sql" />
+    <EmbeddedResource Include="Scripts\Script0020_Remove inflow and outflow.sql" />
+    <EmbeddedResource Include="Scripts\Script0021_Remove is deleted columns.sql" />
   </ItemGroup>
 
   <ItemGroup>
@@ -57,6 +61,12 @@
     <PackageReference Include="Npgsql" Version="3.2.7" />
     <PackageReference Include="Microsoft.Extensions.Configuration" Version="2.2.0" />
     <PackageReference Include="Microsoft.Extensions.Configuration.EnvironmentVariables" Version="2.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="appsettings.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>
