@@ -28,6 +28,7 @@
     <None Remove="Scripts\Script0020_Remove inflow and outflow.sql" />
     <None Remove="Scripts\Script0021_Remove is deleted columns.sql" />
     <None Remove="Scripts\Script0022_Add check constraints.sql" />
+    <None Remove="Scripts\Script0023_Remove assigned constraint from envelope.sql" />
   </ItemGroup>
 
   <ItemGroup>
@@ -51,8 +52,9 @@
     <EmbeddedResource Include="Scripts\Script0018_Add subscription id column.sql" />
     <EmbeddedResource Include="Scripts\Script0019_Remove unnecessary subscription columns.sql" />
     <EmbeddedResource Include="Scripts\Script0020_Remove inflow and outflow.sql" />
-    <EmbeddedResource Include="Scripts\Script0022_Add check constraints.sql" />
     <EmbeddedResource Include="Scripts\Script0021_Remove is deleted columns.sql" />
+    <EmbeddedResource Include="Scripts\Script0022_Add check constraints.sql" />
+    <EmbeddedResource Include="Scripts\Script0023_Remove assigned constraint from envelope.sql" />
   </ItemGroup>
 
   <ItemGroup>
