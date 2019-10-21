@@ -29,6 +29,8 @@
     <None Remove="Scripts\Script0021_Remove is deleted columns.sql" />
     <None Remove="Scripts\Script0022_Add check constraints.sql" />
     <None Remove="Scripts\Script0023_Remove assigned constraint from envelope.sql" />
+    <None Remove="Scripts\Script0024_Add envelope category is toggled.sql" />
+    <None Remove="Scripts\Script0025_Add account target for transaction assignment.sql" />
   </ItemGroup>
 
   <ItemGroup>
@@ -55,6 +57,8 @@
     <EmbeddedResource Include="Scripts\Script0021_Remove is deleted columns.sql" />
     <EmbeddedResource Include="Scripts\Script0022_Add check constraints.sql" />
     <EmbeddedResource Include="Scripts\Script0023_Remove assigned constraint from envelope.sql" />
+    <EmbeddedResource Include="Scripts\Script0025_Add account target for transaction assignment.sql" />
+    <EmbeddedResource Include="Scripts\Script0024_Add envelope category is toggled.sql" />
   </ItemGroup>
 
   <ItemGroup>
